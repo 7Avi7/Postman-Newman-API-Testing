@@ -1,0 +1,1 @@
+newman run https://api.postman.com/collections/25494217-e7621949-225f-47d4-9b37-a8bb7c2626c1?apikey=PMAK-64dbaeb4840c261ddb3c8659-7bb9e4bfca51f6ca3e816e35a75b5ad196 -r htmlextra --reporter-htmlextra-export E:\TextBook\heyAvi.html

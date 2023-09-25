@@ -1,0 +1,13 @@
+    post {
+        always {
+            publishHTML target: [
+                reportName: 'Newman',
+                reportDir: 'newman',
+                reportFiles: 'report.html',
+                reportTitles: 'Postman API tests',
+                keepAll: true,
+                alwaysLinkToLastBuild: true,
+                allowMissing: false
+            ]
+        }
+    }
